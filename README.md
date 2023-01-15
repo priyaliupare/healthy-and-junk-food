@@ -8,22 +8,31 @@ Junk food may be quite convenient, readily available on the go, cheap whereas he
 
 Objectives :-
 
-.The main objective of the project is to create a program which can be either run on Jetson nano or any pc with YOLOv5 installed and start detecting using the camera module on the device.
+. The main objective of the project is to create a program which can be either run on Jetson nano or any pc with YOLOv5 installed and start detecting using the camera module on the device.
+
 . Using appropriate datasets for recognizing and interpreting data using machine learning.
+
 . To show on the optical viewfinder of the camera module whether a food belongs to which species.
 
 # Abstract :-
 
-.Eat healthy and live healthy is one of the essential requirements for long life. Unfortunately, todays world has been adapted to a system of consumption of foods which has several adverse effects on health. 
-.We have completed this project on jetson nano which is a very small computational device.
-.A lot of research is being conducted in the field of Computer Vision and Machine Learning (ML), where machines are trained to identify various objects from one another. Machine Learning provides various techniques through which various objects can be detected.
-.One such technique is to use YOLOv5 with Roboflow model, which generates a small size trained model and makes ML integration easier.
-.The purpose of this project is to observe healthy junk food behaviour.
+. Eat healthy and live healthy is one of the essential requirements for long life. Unfortunately, todays world has been adapted to a system of consumption of foods which has several adverse effects on health.
 
-#Introduction :-
-.The junk food contains sugar, salt fats and more which contribute to obesity. Healthy food can help you get rid of all this as it does not contain harmful things. In addition, healthy food also helps you save money. It is much cheaper in comparison to junk food.
-.A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.
-.Neural networks and machine learning have been used for these tasks and have obtained good results.
+. We have completed this project on jetson nano which is a very small computational device.
+
+. A lot of research is being conducted in the field of Computer Vision and Machine Learning (ML), where machines are trained to identify various objects from one another. Machine Learning provides various techniques through which various objects can be detected.
+
+. One such technique is to use YOLOv5 with Roboflow model, which generates a small size trained model and makes ML integration easier.
+
+. The purpose of this project is to observe healthy junk food behaviour.
+
+# Introduction :-
+. The junk food contains sugar, salt fats and more which contribute to obesity. Healthy food can help you get rid of all this as it does not contain harmful things. In addition, healthy food also helps you save money. It is much cheaper in comparison to junk food.
+
+. A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.
+
+. Neural networks and machine learning have been used for these tasks and have obtained good results.
+
 . Machine learning algorithms have proven to be very useful in pattern recognition and classification, and hence can be used for healthy junk food detection as well.
 
 # Jetson Nano Compatibility :-
@@ -48,11 +57,15 @@ Objectives :-
 4] Use datasets to interpret the object and suggest whether the cat on the camera’s viewfinder belongs to which spices.
 
 #Methodology :-
-.Healthy food contains good fats and nutrients that are vital for your body. Healthy food items offer your body the strength and the capacity to fight against various diseases. Whereas But junk food is a highly processed food and contains a high amount of calories. These foods are, harmful to your health.
-.Eat a lot of vegetables and fruit. Eat a moderate amount of milk, meat, fish, egg and their alternatives (including dry beans) Reduce intake of foods with high fat/oil, salt and sugar content as well as those preserved and processed foods. Drink adequate amount of fluid every day (including water, tea, clear soup, etc)
+. Healthy food contains good fats and nutrients that are vital for your body. Healthy food items offer your body the strength and the capacity to fight against various diseases. Whereas But junk food is a highly processed food and contains a high amount of calories. These foods are, harmful to your health.
+
+. Eat a lot of vegetables and fruit. Eat a moderate amount of milk, meat, fish, egg and their alternatives (including dry beans) Reduce intake of foods with high fat/oil, salt and sugar content as well as those preserved and processed foods. Drink adequate amount of fluid every day (including water, tea, clear soup, etc) 
+
 . Hence YOLOv5 which is a model library from roboflow for image classification and vision was used.
-.There are other models as well but YOLOv5 is smaller and generally easier to use in production. Given it is natively implemented in PyTorch (rather than Darknet), modifying the architecture and exporting and deployment to many environments is straightforward.
-.YOLOv5 was used to train and test our model for whether the cat belongs to which species. We trained it for 149 epochs and achieved an accuracy of approximately 92%.
+
+. There are other models as well but YOLOv5 is smaller and generally easier to use in production. Given it is natively implemented in PyTorch (rather than Darknet), modifying the architecture and exporting and deployment to many environments is straightforward.
+
+. YOLOv5 was used to train and test our model for whether the cat belongs to which species. We trained it for 149 epochs and achieved an accuracy of approximately 92%.
 
 # Installation :-
 Initial Configuration :-
