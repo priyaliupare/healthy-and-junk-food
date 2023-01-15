@@ -29,9 +29,13 @@ Objectives :-
 # Jetson Nano Compatibility :-
 
 . The power of modern AI is now available for makers, learners, and embedded developers everywhere.
+
 . NVIDIA® Jetson Nano™ Developer Kit is a small, powerful computer that lets you run multiple neural networks in parallel for applications like image classification, object detection, segmentation, and speech processing. All in an easy-to-use platform that runs in as little as 5 watts.
+
 . Hence due to ease of process as well as reduced cost of implementation we have used Jetson nano for model detection and training.
+
 . NVIDIA JetPack SDK is the most comprehensive solution for building end-to-end accelerated AI applications. All Jetson modules and developer kits are supported by JetPack SDK.
+
 . In our model we have used JetPack version 4.6 which is the latest production release and supports all Jetson modules.
 
 
