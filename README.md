@@ -26,7 +26,7 @@ Objectives :-
 .Neural networks and machine learning have been used for these tasks and have obtained good results.
 . Machine learning algorithms have proven to be very useful in pattern recognition and classification, and hence can be used for healthy junk food detection as well.
 
-#Jetson Nano Compatibility :-
+# Jetson Nano Compatibility :-
 
 . The power of modern AI is now available for makers, learners, and embedded developers everywhere.
 • NVIDIA® Jetson Nano™ Developer Kit is a small, powerful computer that lets you run multiple neural networks in parallel for applications like image classification, object detection, segmentation, and speech processing. All in an easy-to-use platform that runs in as little as 5 watts.
@@ -35,7 +35,7 @@ Objectives :-
 • In our model we have used JetPack version 4.6 which is the latest production release and supports all Jetson modules.
 
 
-#Proposed System :-
+# Proposed System :-
 1] Study basics of machine learning and image recognition.
 2]Start with implementation
 • Front-end development
@@ -50,7 +50,7 @@ Objectives :-
 .There are other models as well but YOLOv5 is smaller and generally easier to use in production. Given it is natively implemented in PyTorch (rather than Darknet), modifying the architecture and exporting and deployment to many environments is straightforward.
 .YOLOv5 was used to train and test our model for whether the cat belongs to which species. We trained it for 149 epochs and achieved an accuracy of approximately 92%.
 
-#Installation :-
+# Installation :-
 Initial Configuration :-
 
 sudo apt-get remove --purge libreoffice*
@@ -67,7 +67,7 @@ sudo mkswap /swapfile1
 
 sudo vim /etc/fstab
 
-#make entry in fstab file
+# make entry in fstab file
 
 /swapfile1 swap swap defaults 0 0
 
@@ -109,7 +109,7 @@ mv p57jwntv436lfrd78inwl7iml6p13fzh.whl torch-1.8.0-cp36-cp36m-linux_aarch64.whl
 
 sudo pip3 install torch-1.8.0-cp36-cp36m-linux_aarch64.whl
 
-#Check Torch, output should be "True"
+# Check Torch, output should be "True"
 
 sudo python3 -c "import torch; print(torch.cuda.is_available())"
 
@@ -129,7 +129,7 @@ cd yolov5/
 
 sudo pip3 install numpy==1.19.4
 
-#comment torch,PyYAML and torchvision in requirement.txt
+# comment torch,PyYAML and torchvision in requirement.txt
 
 sudo pip3 install --ignore-installed PyYAML>=5.3.1
 
@@ -146,7 +146,7 @@ sudo python3 detect.py --weights yolov5s.pt --source 0
 # We used Google Colab And Roboflow :-
 train your model on colab and download the weights and past them into yolov5 folder link of project colab file given in repo
 
-#Advantages :-
+# Advantages :-
 .Why Is Healthy Food Better Than Junk Food? When you consume a diet that is packed with natural fresh produce, it facilitates to lower the risk of several chronic disorders like cancer, obesity, cardiovascular problems, diabetes and many more.
 .Healthy food is rich in beneficial nutrients and healthy unsaturated fats.
 .Therefore, they help you feel full and energetic throughout the day. In contrast, unhealthy food is high in sodium, sugar, and saturated fats ( bad fats), which can drain your energy levels.
@@ -157,14 +157,14 @@ train your model on colab and download the weights and past them into yolov5 fol
 .Strengthens bones.
 .Supports healthy pregnancies and breastfeeding.
 
-#Application :-
+# Application :-
 .Healthy food is rich in beneficial nutrients and healthy unsaturated fats. Therefore, they help you feel full and energetic throughout the day. In contrast, unhealthy food is high in sodium, sugar, and saturated fats ( bad fats), which can drain your energy levels.
 
-#Conclusion :-
+# Conclusion :-
 .• In this project our model is trying to detect a cat’s face or body and then showing it on viewfinder, live as whether cat belongs to which species as we have specified in Roboflow.
 • The model tries to solve the problem of severe injuries and attack of cats to human that occure in forest and thus protects a person’s life.
 
-#Reference :-
+# Reference :-
 1] Roboflow:- https://roboflow.com/
 2] Datasets or images used :- https://www.gettyimages.ae/photos/big-cats?assettype=image&phrase=big%20cats&sort=mostpopular&license=rf%2Crm
 3] Google images
