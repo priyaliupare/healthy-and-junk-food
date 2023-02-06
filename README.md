@@ -158,6 +158,10 @@ sudo python3 detect.py
 
 sudo python3 detect.py --weights yolov5s.pt --source 0
 
+
+# Demo
+LINK:- https://youtu.be/_I_Bxqv_Fkg
+
 # Healthy Junk Food Dataset Training :-
 
 # We used Google Colab And Roboflow :-
